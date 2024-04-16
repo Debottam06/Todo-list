@@ -1,0 +1,100 @@
+.heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app .box {
+    background-color: #b2bdbd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 650px;
+    border-radius: 5rem;
+    box-shadow: 13px 10px 32px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+    .app .box {
+        width: 700px;
+        height: 550px;
+    }
+
+    .app .box .box2 {
+        width: 600px;
+    }
+
+    .app .box .box3 {
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 750px) {
+    .app .box {
+        width: 580px;
+        height: 550px;
+    }
+
+    .app .box .box2 {
+        width: 520px;
+    }
+
+    .app .box .box3 {
+        width: 350px;
+    }
+
+    .app .box .box4 {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 650px) {
+    .app .box {
+        width: 400px;
+        height: 550px;
+    }
+
+    .app .box .box2 {
+        width: 360px;
+    }
+
+    .app .box .box3 {
+        width: 250px;
+    }
+
+    .app .box .box4 {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+}
+
+@media only screen and (min-width: 315px) and (max-width: 450px) {
+    .app .box {
+        width: 310px;
+        height: 600px;
+    }
+
+    .app .box .box2 {
+        width: 280px;
+    }
+
+    .app .box .box3 {
+        width: 200px;
+    }
+
+    .app .box .box4 {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+}
